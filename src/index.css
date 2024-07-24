@@ -1,13 +1,49 @@
+/* Navbar.css */
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Arial', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.navbar-logo, .navbar-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: 0 1rem;
+  transition: color 0.3s;
+}
+
+.navbar-logo i, .navbar-link i {
+  margin-right: 0.5rem;
+}
+
+.navbar-logo:hover, .navbar-link:hover {
+  color: #00bfff;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
+  }
+
+  .navbar-logo, .navbar-link {
+    margin: 0.5rem 0;
+  }
 }

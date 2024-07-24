@@ -1,6 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
-import Home from './components/navbar';
+
+import Navbar from './components/navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './components/about';
 
@@ -10,7 +9,7 @@ function App() {
     <div className="App">
 
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/' element={<Navbar/>}/>
         <Route path='/about' element={<About/>}/>
       </Routes>
     </div>

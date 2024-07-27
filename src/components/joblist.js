@@ -28,7 +28,7 @@ const JobList = () => {
         {jobs.map((job) => (
           <div className="job-card" key={job.jobid}>
             <h2 className="job-title">{job.jobTitle}</h2>
-            <p className="job-description">{job.jobDescription}</p>
+            <p className="job-description">Description: {job.jobDescription.length > 10 ? ` ${job.jobDescription.substring(0, 25)}...` : job.jobDescription}</p>
             <p className="job-details">Posted by: {job.postedBy}</p>
             <p className="job-details">Deadline: {new Date(job.deadline).toLocaleDateString()}</p>
             <Link to={`/job-details/${job.jobid}`} className="view-details-link">View Details</Link>

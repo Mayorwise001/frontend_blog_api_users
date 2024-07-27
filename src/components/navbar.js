@@ -10,8 +10,6 @@ import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import HomeIcon from '@mui/icons-material/Home';
-import LoginIcon from '@mui/icons-material/Login';
-import PersonAddIcon from '@mui/icons-material/PersonAdd';
 import { Link } from 'react-router-dom';
 import { styled } from '@mui/material/styles';
 
@@ -34,8 +32,8 @@ const Navbar = () => {
 
   const menuItems = [
     { text: 'Home', icon: <HomeIcon />, link: '/' },
-    { text: 'Login', icon: <LoginIcon />, link: '/login' },
-    { text: 'Sign Up', icon: <PersonAddIcon />, link: '/signup' },
+    // { text: 'Login', icon: <LoginIcon />, link: '/login' },
+    // { text: 'Sign Up', icon: <PersonAddIcon />, link: '/signup' },
   ];
 
   return (

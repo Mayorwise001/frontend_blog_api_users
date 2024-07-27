@@ -29,8 +29,8 @@ const JobDetails = () => {
     <>
     <Navbar/>
     <div className="job-details-container">
-      <h1 className="job-details-title">Jobe title: {job.jobTitle}</h1>
-      <p className="job-details-description">Jobe description:{job.jobDescription}</p>
+      <h1 className="job-details-title"> {job.jobTitle}</h1>
+      <p className="job-details-description">Job description:{job.jobDescription}</p>
       <p className="job-details-info"><strong>Posted by:</strong> {job.postedBy}</p>
       <p className="job-details-info"><strong>Category:</strong> {job.category}</p>
       <p className="job-details-info"><strong>Deadline:</strong> {new Date(job.deadline).toLocaleDateString()}</p>

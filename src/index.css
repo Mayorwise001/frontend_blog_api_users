@@ -67,6 +67,25 @@ body {
   color: #ffeb3b;
 }
 
+.filter-container {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.filter-container label {
+  margin-right: 0.5rem;
+  color: #666;
+}
+
+.filter-container select {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+
+
+
 .view-details-link{
   color: #ffeb3b;
 }

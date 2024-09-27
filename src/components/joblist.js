@@ -11,7 +11,7 @@ const JobList = () => {
   useEffect(() => {
     const fetchJobs = async () => {
       try {
-        const response = await axios.get('https://blogapi2-pxnf.onrender.com/api/published-jobs2');
+        const response = await axios.get('https://blogapi2-o4p8.onrender.com/api/published-jobs2');
         setJobs(response.data);
       } catch (error) {
         console.error('Error fetching jobs:', error);
@@ -20,7 +20,7 @@ const JobList = () => {
 
     const fetchCategories = async () => {
       try {
-        const response = await axios.get('https://blogapi2-pxnf.onrender.com/api/all-categories2');
+        const response = await axios.get('https://blogapi2-o4p8.onrender.com/api/all-categories2');
         setCategories(response.data);
       } catch (error) {
         console.error('Error fetching categories:', error);

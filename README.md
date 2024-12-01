@@ -86,16 +86,3 @@ For questions or support, reach out:
 
 Name: Tomosori Joseph Mayowa<br>
 Email: tomosorijosephmayowa@gmail.com
-
-
-
-
-
-
-
-
-##  Contact
-For questions or support, reach out:
-
-Name: Tomosori Joseph Mayowa<br>
-Email: tomosorijosephmayowa@gmail.com

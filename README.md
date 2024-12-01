@@ -43,6 +43,57 @@ REST APIs: For dynamic data fetching and seamless job updates.
 ### Prerequisites
 Node.js installed on your machine.
 
+
+### Steps
+#### Step 1: Clone the Repository
+
+git clone https://github.com/your-username/job-portal-application.git  
+cd job-portal-application
+
+#### Step 2: Install Dependencies
+npm install  
+
+#### Step 3: Start the Application
+npm start  
+
+
+#### Step 4: Open in Browser
+The application will run on http://localhost:3000.
+
+### Usage
+View Jobs: Explore the latest job postings on the homepage.
+Filter by Categories: Use the category filters to narrow down search results.
+View Job Details: Click on a job listing to see detailed information.
+
+### Contributing
+We welcome contributions!
+
+1. Fork the repository.
+2. Create a new branch:
+
+git checkout -b feature-name  
+
+3. Make changes and commit:
+git commit -m "Add feature description here" 
+
+4. Push your branch:
+git push origin feature-name  
+
+5. Open a pull request.
+
+##  Contact
+For questions or support, reach out:
+
+Name: Tomosori Joseph Mayowa<br>
+Email: tomosorijosephmayowa@gmail.com
+
+
+
+
+
+
+
+
 ##  Contact
 For questions or support, reach out:
 

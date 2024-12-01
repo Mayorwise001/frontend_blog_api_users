@@ -1,12 +1,12 @@
-# Getting Started with Create React App
+# Job Portal Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Job Portal Application is a dynamic frontend for the Advanced Job Management System, designed to connect job seekers and recruiters seamlessly. Built with React, HTML, and CSS, this platform provides an efficient and responsive experience for exploring and managing job opportunities.
 
-## Available Scripts
+## Key Features
 
 In the project directory, you can run:
 
-### `npm start`
+### 🔹 Job Listings
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.

@@ -42,3 +42,9 @@ REST APIs: For dynamic data fetching and seamless job updates.
 ## Installation
 ### Prerequisites
 Node.js installed on your machine.
+
+##  Contact
+For questions or support, reach out:
+
+Name: Tomosori Joseph Mayowa<br>
+Email: tomosorijosephmayowa@gmail.com

@@ -6,13 +6,10 @@ The Job Portal Application is a dynamic frontend for the Advanced Job Management
 
 In the project directory, you can run:
 
-### 🔹 Job Listings
+### 🔹 Job Listings<br> 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Fetches and displays up-to-date job postings using REST APIs.
+2. Provides detailed views for each job listing with a single click.
 
 ### `npm test`
 
